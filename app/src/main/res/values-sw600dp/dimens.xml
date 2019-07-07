@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="dialog_width">480dp</dimen>
+
+    <dimen name="margin_4">16dp</dimen>
+
+    <dimen name="margin_5">17dp</dimen>
+    <dimen name="margin_8">15dp</dimen>
+    <dimen name="margin_10">24dp</dimen>
+    <dimen name="margin_11">25dp</dimen>
+    <dimen name="margin_12">26dp</dimen>
+    <dimen name="margin_15">22dp</dimen>
+    <dimen name="margin_18">30dp</dimen>
+    <dimen name="margin_30">42dp</dimen>
+    <dimen name="margin_32">44dp</dimen>
+    <dimen name="margin_35">47dp</dimen>
+    <dimen name="margin_40">52dp</dimen>
+    <dimen name="margin_45">57dp</dimen>
+    <dimen name="margin_50">62dp</dimen>
+    <dimen name="margin_60">72dp</dimen>
+    <dimen name="margin_13">24dp</dimen>
+    <dimen name="margin_80">92dp</dimen>
+
+    <dimen name="margin_90">102dp</dimen>
+    <dimen name="margin_100">112dp</dimen>
+    <dimen name="margin_110">120dp</dimen>
+    <dimen name="margin_120">132dp</dimen>
+    <dimen name="margin_25">37dp</dimen>
+    <dimen name="margin_180">205dp</dimen>
+    <dimen name="margin_240">240dp</dimen>
+
+    <!-- Intro Actitvity dimensions -->
+
+    <dimen name="intro_textsize">35sp</dimen>
+    <dimen name="button_textsize">25sp</dimen>
+    <dimen name="logo_width">240dp</dimen>
+    <dimen name="logo_height">240dp</dimen>
+
+    <!-- Siginin Actitvity dimensions -->
+    <dimen name="title_textsize">30sp</dimen>
+    <dimen name="signin_detail_textsize">25sp</dimen>
+    <dimen name="textview_textsize">22sp</dimen>
+    <dimen name="editview_textsize">24sp</dimen>
+
+    <!-- Email Actitvity dimensions -->
+
+    <dimen name="smalltextsize">19sp</dimen>
+
+    <!-- cutom_pager_tab dimensions -->
+    <dimen name="textsize_8sp">10sp</dimen>
+
+</resources>

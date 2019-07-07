@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:hedgehog="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_8"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:id="@+id/parent_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="@dimen/margin_60"
+            android:layout_height="@dimen/margin_60"
+            android:layout_marginBottom="@dimen/margin_4"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_8">
+
+            <ImageView
+                android:id="@+id/restro_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <ProgressBar
+                android:id="@+id/progress_view"
+                android:layout_width="@dimen/margin_35"
+                android:layout_height="@dimen/margin_35"
+                android:layout_centerInParent="true"
+                android:indeterminate="true"
+                android:indeterminateDrawable="@drawable/custom_progress_dialog"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_8"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/restro_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Restaurant Name"
+                    android:textColor="@color/title_txt_color"
+                    android:textSize="@dimen/margin_13" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/margin_11"
+                    android:layout_marginRight="@dimen/margin_11"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/like_image"
+                        android:layout_width="@dimen/margin_18"
+                        android:layout_height="@dimen/margin_18"
+                        android:layout_marginEnd="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4"
+                        android:src="@drawable/like_count" />
+
+                    <TextView
+                        android:id="@+id/like_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="2 likes"
+                        android:textColor="@color/seek_bar_color"
+                        android:textSize="@dimen/margin_13" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/restro_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_8"
+                android:layout_marginTop="@dimen/margin_4"
+                android:text="Good place to have fast food with your family!"
+                android:textColor="@color/location_txt_color"
+                android:textSize="@dimen/margin_12" />
+
+            <TextView
+                android:id="@+id/restro_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_4"
+                android:layout_marginTop="@dimen/margin_8"
+                android:text="Location Name"
+                android:textColor="@color/location_txt_color"
+                android:textSize="@dimen/margin_11" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rating_restro1"
+                        android:layout_width="@dimen/margin_25"
+                        android:layout_height="@dimen/margin_25"
+                        android:padding="@dimen/margin_4"
+                        android:src="@drawable/smallredstar" />
+
+                    <ImageView
+                        android:id="@+id/rating_restro2"
+                        android:layout_width="@dimen/margin_25"
+                        android:layout_height="@dimen/margin_25"
+                        android:padding="@dimen/margin_4"
+                        android:src="@drawable/smallredstar" />
+
+                    <ImageView
+                        android:id="@+id/rating_restro3"
+                        android:layout_width="@dimen/margin_25"
+                        android:layout_height="@dimen/margin_25"
+                        android:padding="@dimen/margin_4"
+                        android:src="@drawable/smallredstar" />
+
+                    <ImageView
+                        android:id="@+id/rating_restro4"
+                        android:layout_width="@dimen/margin_25"
+                        android:layout_height="@dimen/margin_25"
+                        android:padding="@dimen/margin_4"
+                        android:src="@drawable/smallgraystar" />
+
+                    <ImageView
+                        android:id="@+id/rating_restro5"
+                        android:layout_width="@dimen/margin_25"
+                        android:layout_height="@dimen/margin_25"
+                        android:padding="@dimen/margin_4"
+                        android:src="@drawable/smallgraystar" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/margin_11"
+                    android:layout_marginRight="@dimen/margin_11"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/restro_distance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/margin_8"
+                        android:layout_marginRight="@dimen/margin_8"
+                        android:gravity="center"
+                        android:text="2.2"
+                        android:textColor="@color/title_txt_color"
+                        android:textSize="@dimen/margin_12" />
+
+                    <ImageView
+                        android:id="@+id/location_click"
+                        android:layout_width="@dimen/margin_30"
+                        android:layout_height="@dimen/margin_35"
+                        android:padding="@dimen/margin_8"
+                        android:src="@drawable/redloactionpin" />
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/price_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/margin_4"
+                    android:layout_marginStart="@dimen/margin_4"
+                    android:text="Cheap"
+                    android:textColor="@color/seek_bar_color"
+                    android:textSize="@dimen/margin_12" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/margin_11"
+                    android:layout_marginRight="@dimen/margin_11"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/check_in_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="4 Checkin"
+                        android:textColor="@color/title_txt_color"
+                        android:textSize="@dimen/margin_12"
+                        android:layout_marginEnd="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_10"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

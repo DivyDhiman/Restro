@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <include layout="@layout/custom_tool_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/margin_13"
+        android:layout_marginStart="@dimen/margin_13"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/profile_click"
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_4"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_18">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/round_default_image" />
+
+            <ProgressBar
+                android:id="@+id/progress_view"
+                android:layout_width="@dimen/margin_35"
+                android:layout_height="@dimen/margin_35"
+                android:layout_centerInParent="true"
+                android:indeterminate="true"
+                android:indeterminateDrawable="@drawable/custom_progress_dialog"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/name_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_25"
+            android:text="@string/name"
+            android:paddingEnd="@dimen/margin_8"
+            android:paddingStart="@dimen/margin_8"
+            android:textColor="@color/text_view_color_edit_profile"
+            android:textSize="@dimen/margin_13" />
+
+
+        <EditText
+            android:id="@+id/name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/margin_8"
+            android:paddingStart="@dimen/margin_8"
+            android:paddingTop="@dimen/margin_5"
+            android:background="@android:color/transparent"
+            android:paddingBottom="@dimen/margin_5"
+            android:text="Mike Wayan"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/edit_text_color_edit_profile"
+            android:textSize="@dimen/margin_15"
+            android:layout_marginBottom="@dimen/margin_13"/>
+
+        <TextView
+            android:id="@+id/location_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_4"
+            android:text="@string/location"
+            android:paddingEnd="@dimen/margin_8"
+            android:paddingStart="@dimen/margin_8"
+            android:textColor="@color/text_view_color_edit_profile"
+            android:textSize="@dimen/margin_13" />
+
+        <AutoCompleteTextView
+            android:id="@+id/location_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/margin_8"
+            android:paddingStart="@dimen/margin_8"
+            android:paddingTop="@dimen/margin_5"
+            android:background="@android:color/transparent"
+            android:paddingBottom="@dimen/margin_5"
+            android:text="New York"
+            android:imeOptions="actionDone"
+            android:layout_marginBottom="@dimen/margin_13"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/edit_text_color_edit_profile"
+            android:textSize="@dimen/margin_15" />
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/password"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/margin_4"-->
+            <!--android:text="@string/password_edit_profile"-->
+            <!--android:paddingEnd="@dimen/margin_8"-->
+            <!--android:paddingStart="@dimen/margin_8"-->
+            <!--android:textColor="@color/text_view_color_edit_profile"-->
+            <!--android:textSize="@dimen/margin_13" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/change_password_click"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingEnd="@dimen/margin_8"-->
+            <!--android:paddingStart="@dimen/margin_8"-->
+            <!--android:paddingTop="@dimen/margin_5"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:paddingBottom="@dimen/margin_5"-->
+            <!--android:text="@string/change_password_edit_profile"-->
+            <!--android:textColor="@color/edit_text_color_edit_profile"-->
+            <!--android:textSize="@dimen/margin_15"-->
+            <!--android:layout_marginBottom="@dimen/margin_13"/>-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/old_password"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/margin_4"-->
+            <!--android:text="@string/name"-->
+            <!--android:paddingEnd="@dimen/margin_8"-->
+            <!--android:paddingStart="@dimen/margin_8"-->
+            <!--android:textColor="@color/text_view_color_edit_profile"-->
+            <!--android:textSize="@dimen/margin_13" />-->
+
+
+        <!--<EditText-->
+            <!--android:id="@+id/old_password_et"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingEnd="@dimen/margin_8"-->
+            <!--android:paddingStart="@dimen/margin_8"-->
+            <!--android:paddingTop="@dimen/margin_5"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:paddingBottom="@dimen/margin_5"-->
+            <!--android:text="Mike Wayan"-->
+            <!--android:inputType="textEmailAddress"-->
+            <!--android:textColor="@color/edit_text_color_edit_profile"-->
+            <!--android:textSize="@dimen/margin_15"-->
+            <!--android:layout_marginBottom="@dimen/margin_13"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/new_password"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/margin_4"-->
+            <!--android:text="@string/name"-->
+            <!--android:paddingEnd="@dimen/margin_8"-->
+            <!--android:paddingStart="@dimen/margin_8"-->
+            <!--android:textColor="@color/text_view_color_edit_profile"-->
+            <!--android:textSize="@dimen/margin_13" />-->
+
+
+        <!--<EditText-->
+            <!--android:id="@+id/new_password_et"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingEnd="@dimen/margin_8"-->
+            <!--android:paddingStart="@dimen/margin_8"-->
+            <!--android:paddingTop="@dimen/margin_5"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:paddingBottom="@dimen/margin_5"-->
+            <!--android:text="Mike Wayan"-->
+            <!--android:inputType="textEmailAddress"-->
+            <!--android:textColor="@color/edit_text_color_edit_profile"-->
+            <!--android:textSize="@dimen/margin_15"-->
+            <!--android:layout_marginBottom="@dimen/margin_13"/>-->
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+    </RelativeLayout>

@@ -1,0 +1,491 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Restaroo</string>
+
+    <!--Intro Activity Details -->
+    <string name="introduction_title">CHAT. SELL. BUY</string>
+    <string name="signin">SIGNIN</string>
+    <string name="register">REGISTER</string>
+
+    <!--Signin Activity Details -->
+    <string name="signin_intro">Sign in with username and password</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+
+    <!--Register Activity Details -->
+    <string name="i_am_buyer">Buyer</string>
+    <string name="i_am_seller">Seller</string>
+    <string name="first_name">FIRST NAME</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="userName">USER NAME</string>
+    <string name="business_name">BUSINESS NAME</string>
+    <string name="phone_no">PHONE NO.</string>
+    <string name="phone_number">phone number</string>
+    <string name="country">COUNTRY</string>
+    <string name="state">STATE</string>
+    <string name="next">NEXT</string>
+    <string name="verify">VERIFY</string>
+    <string name="skip">Skip</string>
+    <string name="select_category">SELECT CATEGORY</string>
+    <string name="select_category_to_get_deals_in">SELECT CATEGORY TO GET DEALS IN</string>
+    <string name="selectstate">Select State</string>
+    <string name="selectcountry">Select Country</string>
+    <string name="category">Category</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="market_chat">MARKET CHAT</string>
+    <string name="save">SAVE</string>
+    <string name="broadcast">Broadcast</string>
+
+
+    <!--SelectCountry / SelectState Activity Details -->
+    <string name="select_country">select country</string>
+    <string name="select_state">select state</string>
+
+    <!--Number Verification Activity Details -->
+    <string name="send_code">We have sent code on your provided phone number.Please enter code below for verification.</string>
+    <string name="number_verfication">NUMBER VERIFICATION</string>
+
+    <!--Number Verification Forgot Activity Details -->
+    <string name="send_code_forgot">We have sent code on your provided phone number.Please enter code.</string>
+    <string name="number_verfication_forgot">VERIFICATION CODE</string>
+
+    <!--Email Activity Details -->
+    <string name="email_details">Congratulations! Your phone number is verfied. May we please have your email ID?</string>
+    <string name="email_confidential">We ensure your phone number and email ID will not be shared with anyone</string>
+    <string name="email">EMAIL</string>
+    <string name="enteremail">Enter your Email</string>
+
+    <!--MyAccount Activity Details -->
+    <string name="myaccount_details">Please fill all the information to complete your account.</string>
+    <string name="myaccount">MY ACCOUNT</string>
+    <string name="edit">EDIT</string>
+
+    <!--FORGOT PASSWORD Activity Details -->
+    <string name="FORGOT_PASSWORD">FORGOT PASSWORD</string>
+    <string name="forgot_password_details">Please enter your registered number.</string>
+    <string name="enter_your_number">ENTER YOUR NUMBER</string>
+    <string name="number_updation">NUMBER UPDATION</string>
+    <string name="new_number_details">Please enter your new number.</string>
+    <string name="enter_email_id">Get your password on email</string>
+
+
+    <!--Reset PASSWORD Activity Details -->
+    <string name="RESET_PASSWORD">RESET PASSWORD</string>
+    <string name="new_password">NEW PASSWORD</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="reset_password_details">Please enter your new password.</string>
+    <string name="done">DONE</string>
+    <string name="password_does_not_matches">Password and Confirm Password Does Not Matches</string>
+
+    <!--Enter PASSWORD Activity Details -->
+    <string name="PASSWORD">PASSWORD</string>
+    <string name="enter_password_details">You will need a password</string>
+
+    <!--Broadcast Activity Details -->
+    <string name="user_request">User request</string>
+    <string name="broadcast_details">Your request has been submmited to Admin and its in process. You will be notified with status in next 8 hrs.</string>
+
+    <!--Broadcast Activity Details -->
+    <string name="createropsal_details">New Proposal has been created</string>
+
+    <!-- Filter Activity Details -->
+    <string name="filter">FILTER</string>
+    <string name="distance">Distance</string>
+    <string name="time">Time</string>
+
+    <!--Category Activity Details -->
+    <string name="pleaseselectatleastOneCategory">Please Select at Least One Category</string>
+
+    <!--Add Review Activity Details -->
+    <string name="add_review">ADD REVIEW</string>
+    <string name="addreview_details">Please add review and rating</string>
+    <string name="write_here">Write here&#8230;</string>
+
+
+
+    <!--My Account Dialog Box Details -->
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="dialog_details">Changes done are not Saved. Do you want to Continue.</string>
+
+    <!--BrooadCast Dialog Box Details -->
+    <string name="ok">OK</string>
+
+    <!--Logout Dialog Box Details -->
+    <string name="logout_dialog_details">ARE YOU REALLY WANT TO EXIT.</string>
+    <string name="logout_btn">LOG OUT</string>
+    <string name="cancel">CANCEL</string>
+
+    <!--Delete Post Dialog Box Details -->
+    <string name="delete_dialog_details">ARE YOU REALLY WANT TO DELETE THIS POST.</string>
+    <string name="delete">DELETE</string>
+
+
+    <!--Deny RunTimePermission-->
+    <string name="deny_runtime_permission">Deny RunTime Permission</string>
+
+
+
+    <!--Socket String-->
+    <string name="connect_socket">connect_socket</string>
+    <string name="disconnect_socket">disconnect_socket</string>
+    <string name="connection_error">connection_error</string>
+    <string name="connection_timeout">connection_timeout</string>
+    <string name="connecting_socket">connecting_socket</string>
+    <string name="event_error">event_error</string>
+    <string name="get_message_socket">get_message_socket</string>
+    <string name="typing_socket">typing_socket</string>
+    <string name="message_delete">message_delete</string>
+    <string name="message_read">message_read</string>
+    <string name="socket_error">socket_error</string>
+    <string name="title_activity_intro">IntroActivity</string>
+
+    <!--Tool bar strings-->
+    <string name="intro_screen_toolbar">Intro Screen Toolbar</string>
+    <string name="dash_board_screen_toolbar">DashBoard Screen Toolbar</string>
+    <string name="login_screen_toolbar">Login Screen Toolbar</string>
+    <string name="sign_up_screen_toolbar">Sign Up Screen Toolbar</string>
+    <string name="edit_profile_screen">Edit Profile Screen</string>
+    <string name="restro_details_screen_toolbar">Restro Details Screen Toolbar</string>
+    <string name="map_screen_toolbar">Map Screen toolbar</string>
+    <string name="show_reviews_screen_toolbar">Show Review Screen Toolbar</string>
+    <string name="add_reviews_screen_toolbar">ADD Review Screen Toolbar</string>
+    <string name="cuisine_screen_toolbar">Cuisine Screen Toolbar</string>
+    <string name="filter_screen_toolbar">Filter Screen Toolbar</string>
+    <string name="full_screen_toolbar">Full Screen Toolbar</string>
+    <string name="web_view_screen_toolbar">Web View Screen Toolbar</string>
+
+
+    <!--ToolBar Header and Navigation Heading-->
+    <string name="home">HOME</string>
+    <string name="cusine">CUSINE</string>
+    <string name="settings">SETTINGS</string>
+    <string name="about">ABOUT</string>
+    <string name="logout">LOGOUT</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="near_by">NEAR BY</string>
+    <string name="location_toolbar">Location</string>
+
+
+    <!--RecylcerView Callback strings-->
+    <string name="categorypassing">Category Passing</string>
+
+    <!--Tool bar click strings-->
+    <string name="start_view">Start View</string>
+    <string name="side_menu">Side Menu</string>
+    <string name="end_view">End View</string>
+    <string name="before_end_view">Before End View</string>
+    <string name="search_view">Search View</string>
+    <string name="filter_view">Filter View</string>
+    <string name="pay">Pay</string>
+    <string name="chat_user_image">Chat User Image</string>
+
+
+    <!--ViewPager Text-->
+    <string name="private_viewpager_text">PRIVATE</string>
+    <string name="public_viewpager_text">PUBLIC</string>
+    <string name="hot_deals_viewpager_text">HOT DEALS</string>
+
+    <!--Recycler Adapter View-->
+    <string name="restro_list_adapter_view">Restro List Adapter View</string>
+    <string name="restro_detail_adapter_view">Restro Details Adapter View</string>
+    <string name="restro_review_adapter_view">Restro Review Adapter View</string>
+    <string name="save_cusine_adapter_view">Save Cusine Adapter View</string>
+    <string name="full_image_adapter_view">Full Image Adapter View</string>
+
+
+    <!--snackBar text View-->
+    <string name="first_name_mandatory">First Name is mandatory</string>
+    <string name="first_name_max_length">First Name is exceeded,max limit is 20</string>
+    <string name="last_name_mandatory">Last Name is mandatory</string>
+    <string name="last_name_max_length">Last Name is exceeded,max limit is 20</string>
+    <string name="user_name_mandatory">User Name is mandatory</string>
+    <string name="user_name_max_length">User Name is exceeded,max limit is 20</string>
+    <string name="password_mandatory">Password is mandatory</string>
+    <string name="password_max_length">Password length is incorrect, it should be in between 6 to 14</string>
+    <string name="phone_name_mandatory">Phone Number is mandatory</string>
+    <string name="phone_name_max_length">Phone Number is incorrect,range is between 8 to 15</string>
+    <string name="register_country_mandatory">Register Country is mandatory</string>
+    <string name="register_state_mandatory">Register State is mandatory</string>
+    <string name="business_name_mandatory">Business Name is mandatory</string>
+    <string name="Business_name_max_length">Business Name is exceeded,max limit is 40</string>
+    <string name="new_password_mandatory">New Password is mandatory</string>
+    <string name="new_password_max_length">New Password length is incorrect, it should be in between 6 to 14</string>
+    <string name="confirm_password_mandatory">Confirm Password is mandatory</string>
+    <string name="confirm_password_max_length">Confirm Password length is incorrect, it should be in between 6 to 14</string>
+    <string name="email_mandatory">Email is mandatory</string>
+    <string name="email_valid">Please enter valid email id</string>
+    <string name="email_max_length">Email id is exceeded,max limit is 40</string>
+    <string name="enable_internet">Please enable your internet</string>
+    <string name="empty_rating">Please select rating</string>
+    <string name="please_enter_otp_code">Please enter otp code</string>
+    <string name="valid_otp_code">Please enter valid otp code</string>
+    <string name="waiting_for_your_location">Waiting for your location</string>
+    <string name="email_successfully_send">Email Successfully Send</string>
+    <string name="empty_message">Please enter message</string>
+    <string name="empty_proposal_message">Please enter proposal message</string>
+    <string name="filter_applied_successfully">Filter Applied Successfully</string>
+    <string name="empty_restro_list">No Restaurants found, please change in filter or search for different location</string>
+
+
+    <!--SignUp Type-->
+    <string name="seller">Seller</string>
+    <string name="buyer">Buyer</string>
+
+    <!--API Calling UI Name-->
+    <string name="get_resto_list_api">Get Restro List API</string>
+    <string name="get_resto_detail_api">Get Restro Detail API</string>
+    <string name="google_Path_API">Google Path API</string>
+    <string name="get_resto_reviews_api">Get Restro Reviews API</string>
+    <string name="check_email_availability_api">Check Email Availability API</string>
+    <string name="sign_up_api">Sign Up API</string>
+    <string name="logout_api">Logout API</string>
+    <string name="get_category_api">Get Category API</string>
+    <string name="add_reviews_api">Add Reviews API</string>
+    <string name="sign_in_api">Sign In API</string>
+    <string name="forgot_password_api">Forgot Password API</string>
+    <string name="get_review_api">Get Reviews API</string>
+    <string name="social_login_api">Social Login API</string>
+
+
+    <string name="update_user_image_api">Update User Image API</string>
+    <string name="chat_first_time_api">Chat First Time API</string>
+
+
+
+    <string name="amazon_video_upload_api">Amazon Video Upload API</string>
+    <string name="amazon_image_upload_api">Amazon Image Upload API</string>
+    <string name="amazon_image_upload_parent_api">Amazon Image Upload Parent API</string>
+    <string name="amazon_thumbnail_upload_api">Amazon Thumbnail Upload API</string>
+    <string name="download_profile_image_api">Download Profile Image API</string>
+    <string name="download_image_api">Download Image API</string>
+    <string name="download_video_api">Download Video API</string>
+
+    <string name="change_password_using_phone">Change Password Using Phone API</string>
+
+    <string name="create_proposal_api">Create Proposal API</string>
+
+
+    <!--API MESSAGE-->
+    <string name="email_id_not_found">Email Id not found</string>
+    <string name="registered_successfully">Registered Successfully</string>
+    <string name="added_successfully">Added Successfully</string>
+    <string name="logged_out_successfully">Logged Out Successfully</string>
+    <string name="user_login_successful">User Login Successful</string>
+
+
+    <string name="user_available">User Available</string>
+    <string name="user_already_exit">User Already Exist</string>
+    <string name="country_list">Country List</string>
+    <string name="state_list">State List</string>
+    <string name="category_list">Category list</string>
+    <string name="updated_successfully">Updated Successfully</string>
+    <string name="sub_category_list_for_user">Sub category list for user</string>
+    <string name="deleted_successfully">Deleted Successfully</string>
+    <string name="offer_list">offer list</string>
+    <string name="user_details">User Detail</string>
+    <string name="group_already_exist">Group Already Exist</string>
+    <string name="chat_list">Chat List</string>
+    <string name="chat_groups">Chat Groups</string>
+    <string name="leavegroup_succesfully">Leave group successfully</string>
+    <string name="unread_message_count">Unread Message Count</string>
+    <string name="checkin">Checkin</string>
+    <string name="type">Type :</string>
+    <string name="likes">likes</string>
+
+
+    <string name="logout_successfully">Logged Out Successfully</string>
+
+
+    <string name="proposal_list">Proposal List</string>
+
+
+    <!--API Response Error -->
+    <string name="error_Http_not_found">HTTP_NOT_FOUND</string>
+    <string name="error_Http_internal">HTTP_INTERNAL_ERROR</string>
+    <string name="error_Http_other">HTTP_OTHER_ERROR</string>
+    <string name="error">Error</string>
+    <string name="status_error">Status Error</string>
+    <string name="message_error">Message Error</string>
+    <string name="empty_data">Empty Data</string>
+
+
+    <!--Dialog Box Details -->
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="cancel_dailog">No</string>
+    <string name="settings_dialog">Yes</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="please_enable_gps">"This app" Would like to use your current location</string>
+    <string name="negative_txt">Negative txt</string>
+    <string name="positive_txt">Positive txt</string>
+    <string name="yes_txt">Yes txt</string>
+    <string name="no_txt">No txt</string>
+    <string name="ok_txt">Ok txt</string>
+    <string name="share_picture">Share Picture</string>
+    <string name="share_video">Share Video</string>
+    <string name="capture_picture">Capture Picture</string>
+    <string name="capture_video">Capture Video</string>
+    <string name="logout_txt">Logout txt</string>
+    <string name="cancel_txt">Cancel txt</string>
+    <string name="delete_txt">Delete txt</string>
+
+    <string name="send_chat_data_lost">Are you sure you wanna go back,if so sending items will no longer available</string>
+
+
+    <!--Dialog Box Type -->
+    <string name="profile_dialog">Profile Dialog</string>
+    <string name="custom_alert_dialog">Custom Alert Dialog</string>
+    <string name="myaccount_dialog">MYACCOUNT Dialog</string>
+    <string name="broadcast_dialog">BROADCAST Dialog</string>
+    <string name="chat_share_dialog">Chat Share Dialog</string>
+    <string name="create_proposal_dialog">Create Proposal Dialog</string>
+    <string name="chat_share_lost_dialog">Chat Share Lost Dialog</string>
+    <string name="logout_dialog">Logout Dialog</string>
+    <string name="delete_post_dialog">Delete post Dialog</string>
+
+    <!--RunTimePermission String-->
+    <string name="allow_read_message">READ SMS</string>
+    <string name="allow_access_location">Allow Access Location</string>
+    <string name="allow_access_storage">Allow Access Storage</string>
+    <string name="allow_access_camera">Allow Access Camera</string>
+    <string name="allow_access_record_audio">Allow Access Record Audio</string>
+
+    <!--Activity names-->
+    <string name="forgot_password_activity">FORGOT PASSWORD ACTIVITY</string>
+    <string name="signup_password_activity">SIGNUP PASSWORD ACTIVITY</string>
+    <string name="signin_activity">SIGNIN ACTIVITY</string>
+    <string name="select_country_activity">SELECT COUNTRY ACTIVITY</string>
+    <string name="select_state_activity">SELECT STATE ACTIVITY</string>
+    <string name="my_account_activity">MY ACCOUNT ACTIVITY</string>
+    <string name="phone_number_verfication">PHONE VERIFICATION ACTIVITY</string>
+    <string name="number_verfication_activity">NUMBER VERIFICATION ACTIVITY</string>
+
+
+    <!--Fragments names-->
+    <string name="navigation_drawer_layout_fragment">NAVIGATION DRAWER LAYOUT FRAGMENT</string>
+
+
+    <!--Chat Data Type String-->
+    <string name="get_previous_data_message">Get Previous Data Message</string>
+    <string name="get_previous_data_image">Get Previous Data Image</string>
+    <string name="get_previous_data_video">Get Previous Data Video</string>
+    <string name="set_new_data_image">Set Previous Data Image</string>
+    <string name="set_new_data_video">Set Previous Data Video</string>
+
+
+    <!--Chat Message Type-->
+    <string name="left_message">Left Message</string>
+    <string name="right_message">Right Message</string>
+    <string name="message">Message</string>
+    <string name="chat_proposal">Chat Proposal</string>
+    <string name="chat_private">Chat Private</string>
+
+
+    <string name="user_name">USER NAME</string>
+
+
+    <!--Video Type-->
+    <string name="Compress">Compress</string>
+
+    <!--Image Download Error in toolbar-->
+    <string name="toolbar_image_error">Oops and error occur while show user image</string>
+
+
+    <!--Full Screen Chat Intent Type-->
+    <string name="chat">Chat</string>
+    <string name="user_image">User Image</string>
+    <string name="type_video">Type Video</string>
+    <string name="type_image">Type Image</string>
+    <string name="type_profile_image">Type Profile Image</string>
+
+
+    <!--Error Layout String-->
+    <string name="pull_to_refresh">Pull to refresh</string>
+
+
+    <!--No more Data-->
+    <string name="no_more_public">No more public feed to show</string>
+
+
+    <!--FaceBook keys-->
+    <string name="facebook_app_id">1924235757830505</string>
+    <string name="fb_login_protocol_scheme">fb1924235757830505</string>
+    
+    
+    <!--Intro Screen Txt-->
+    <string name="facebook_login">LOGIN WITH FACEBOOK</string>
+    <string name="email_login">LOGIN WITH EMAIL</string>
+
+
+    <!--DashBoard Screen Text-->
+    <string name="select_location">Select Location</string>
+    <string name="no_value">NO Value</string>
+    <string name="not_available">Not Available</string>
+    
+    
+    <!--SignIn Screen Text-->
+    <string name="login">LOGIN</string>
+    <string name="login_txt">login with your email password</string>
+    <string name="dont_have_account">I Don\'t have an account?</string>
+    <string name="sign_up_sign_in"> Sign Up</string>
+    <string name="reviews">REVIEWS</string>
+    <string name="add_reviews">ADD REVIEWS</string>
+    <string name="send">SEND</string>
+    <string name="add_review_rating">Please add reviews and rating.</string>
+    <string name="filters">FILTERS</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="about_screen">About</string>
+
+
+    <!--Sign Up Text-->
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_up_sub_header">SignUp for new account</string>
+    <string name="your_name">Your name</string>
+    <string name="your_email_id">Your email id</string>
+    <string name="re_enter_password">RE - ENTER PASSWORD</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="sign_in_sign_up"> Sign In</string>
+
+    <!--Edit Profile Screen Text-->
+    <string name="name">Name</string>
+    <string name="location">Location</string>
+
+
+    <!--Empty Message and valid message-->
+    <string name="empty_name">Please enter name</string>
+    <string name="empty_email">Please enter email id</string>
+    <string name="empty_location">Please select location</string>
+    <string name="empty_password">Please enter password</string>
+    <string name="empty_confirm_password">Please enter confirm password</string>
+    <string name="password_confirm_password_not_matches">Password  and Confirm password not matches</string>
+    <string name="name_max_length">Name is exceeded,max limit is 40</string>
+    <string name="empty_review">Please enter review</string>
+
+    
+    <!--Filter Screen Text-->
+    <string name="distance_filter_screen">Distance</string>
+    <string name="categories_filter_screen">Categories</string>
+    <string name="location_filter_screen">Location</string>
+    <string name="zero_miles">0 KM</string>
+    <string name="hundred_miles">100 KM</string>
+    <string name="all_categories">All Categories</string>
+    <string name="progress">Progress</string>
+    <string name="km">KM</string>
+    
+    
+    <!--Detail Screen-->
+    <string name="open_now">Open Now</string>
+    <string name="close_now">Close Now</string>
+
+    <!--Cuisine Screen-->
+    <string name="cuisine_save_successfully">Cuisine Saved Successfully</string>
+
+    <!--Edit Profile-->
+    <string name="password_edit_profile">Password</string>
+    <string name="change_password_edit_profile">Change Password</string>
+
+    <string name="kilo_meter">km</string>
+    <string name="soon_complete">On Progress... Soon will complete</string>
+
+</resources>

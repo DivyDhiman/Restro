@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d9d9d9</color>
+    <color name="colorPrimaryDark"> #d9d9d9</color>
+    <color name="colorAccent">#d01d21</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <color name="colorgold">#FDD835</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDarkRed">#8B0000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack1">#737373</color>
+    <color name="colorLightBlack">#bfbfbf</color>
+    <color name="colorGrey">#d9d9d9</color>
+    <color name="colorDarkGrey">#999999</color>
+    <color name="colorLightGreen">#65e1a1</color>
+    <color name="rating_select_color">#f1c40f</color>
+    <color name="color_gray">#808080</color>
+    <color name="color_gray_statusbar">#808080</color>
+    <color name="gradientregisterbtn_startcolor">#666666</color>
+    <color name="gradientregisterbtn_endcolor">#898989</color>
+    <color name="gradientsigninbtn_startcolor">#b8045d</color>
+    <color name="gradientsigninbtn_endcolor">#e4622e</color>
+    <color name="filter_distance_time">#d94d3e</color>
+
+
+
+
+
+    <color name="transparent_color">#80000000</color>
+    <color name="transparent_color_2">#1A000000</color>
+
+    <color name="black_transparent">#8CFFFFFF</color>
+
+    <color name="colorRed">#d01d21</color>
+    <color name="passwordRed">#fe0002</color>
+    <color name="colorRed2">#be1c1f</color>
+    <color name="color_blue">#6f47fe</color>
+    <color name="colorgreen">#2bff00</color>
+    <color name="coloroff_black3">#e9e0e1</color>
+
+
+    <color name="color_login">#dc6c6f</color>
+    <color name="signup_btn_bg">#d01d21</color>
+    <color name="off_black">#8f8f8f</color>
+    <color name="off_black_2">#717171</color>
+
+    <color name="light_black">#2d2d30</color>
+    <color name="strip_color">#d6171a</color>
+    <color name="home_car_box">#f9e9ea</color>
+    <color name="back_ground_light_gray">#dedede</color>
+    <color name="car_sel_color">#e37f7d</color>
+    <color name="calender_bottom">#edebec</color>
+    <color name="background_search_group">#c2c1c7</color>
+    <color name="light_blue">#67aedd</color>
+    <color name="light_gray_2">#efefef</color>
+    <color name="broadcast_background">#645e5e</color>
+
+    <color name="add_member_color">#bf1b1e</color>
+
+<!--
+    <color name="colorPrimary">#dedede</color>    -->
+
+    <color name="date_new">#585858</color>
+    <color name="date_previous">#a4a4a4</color>
+    <color name="unselect_pick_drop">#f17e81</color>
+
+    <color name="newWhite">#fefafa</color>
+    <color name="blur_color"> #8CFFFFFF</color>
+
+    <color name="blur_color_black">#8C000000</color>
+
+    <integer-array name="pocket_bar_colors">
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <!--<item>@color/pocket_color_3</item>-->
+        <!--<item>@color/pocket_color_3</item>-->
+        <!--<item>@color/pocket_color_3</item>-->
+        <!--<item>@color/pocket_color_3</item>-->
+        <!--<item>@color/pocket_color_4</item>-->
+        <!--<item>@color/pocket_color_4</item>-->
+        <!--<item>@color/pocket_color_4</item>-->
+        <!--<item>@color/pocket_color_4</item>-->
+    </integer-array>
+
+    <color name="pocket_color_1">#d01d21</color>
+    <color name="pocket_color_2">#8f8f8f</color>
+    <color name="pocket_color_3">#2bff00</color>
+    <color name="pocket_color_4">#8B0000</color>
+
+    <color name="bottom_red_txt">#cf1d20</color>
+    <color name="bottom_white_txt">#FFFFFF</color>
+    <color name="bottom_gray_txt">#676767</color>
+
+
+    <color name="sigin_textview">#7a247f</color>
+    <color name="radio_button_color">#db4f3e</color>
+    <color name="register_title">#e67167</color>
+    <color name="number_verfication_title">#b3034e</color>
+    <color name="seekbar_thumb_color">#da005d</color>
+    <color name="skip_button_toolbar">#a4a4a4</color>
+    <color name="Email_title">#5f0061</color>
+    <color name="select_country_state_title">#d70039</color>
+    <color name="broadcast_title">#000000</color>
+    <color name="select_categories_title">#d4021f</color>
+    <color name="pager_line_color">#f09310</color>
+    <color name="view_pager_title_txt_color">#959595</color>
+    <color name="home_page_background_color">#f4f4f4</color>
+
+    <!--Number Verified Screen -->
+    <color name="otp_txt_color">#b7b7b7</color>
+
+    <!--Register Screen-->
+    <color name="sign_up_txt_color">#8c8c8c</color>
+    <color name="sign_up_radio_color">#7d7d7d</color>
+    <color name="radio_btn_color">#da4f3c</color>
+    <color name="radio_btn_un_selected_color">#878f8c</color>
+
+    <color name="pin_normal">#6B767E</color>
+
+
+    <!--Select Country-->
+    <color name="country_txt_color">#5d3f44</color>
+    <color name="selector_color">#f9d6dd</color>
+
+    <!--Account EditText Color-->
+    <color name="account_edit_text_color">#2920f5</color>
+    <color name="account_txt_color">#8b8b8b</color>
+    <color name="account_header_color">#444444</color>
+    <color name="account_user_name_color">#383838</color>
+    <color name="account_distance_color">#bababa</color>
+    <color name="account_description_color">#9e9e9e</color>
+    <color name="account_time_color">#dedede</color>
+
+
+    <!--Progress Bar Color-->
+    <color name="loader_color">#eb7d1d</color>
+
+    <!--ToolBar Color-->
+    <color name="toolbar_pay_txt_color">#e65c3d</color>
+    <color name="toolbar_end_txt_color">#9f9f9f</color>
+
+
+    <!--Swipe Refresh Color-->
+    <color name="refresh_progress_1">#e65c3d</color>
+    <color name="refresh_progress_2">#f6603f</color>
+    <color name="refresh_progress_3">#ff7152</color>
+
+    <!--Error Text Color-->
+    <color name="error_color">#434343</color>
+    <color name="white_error_color">#ffffff</color>
+
+
+
+
+    <!--Intro Screen Color-->
+    <color name="facebook_btn_color">#ffffff</color>
+    <color name="facebook_txt_color">#e04d3e</color>
+    <color name="sign_in_btn_color">#cc4235</color>
+    <color name="sign_in_txt_color">#ffffff</color>
+    <color name="intro_status_bar_color">#343434</color>
+    <color name="intro_nav_bar_color">#343434</color>
+
+    <!--DashBoard Screen Color-->
+    <color name="title_txt_color">#575757</color>
+    <color name="location_txt_color">#aeaeae</color>
+    <color name="distance_txt_color">#575757</color>
+
+    <!--SignIn Screen Color-->
+    <color name="sign_in_title_txt_color">#dd4c42</color>
+    <color name="sign_in_screen_txt_color">#898989</color>
+    <color name="entry_color_sign_in">#8b8b8b</color>
+    <color name="forgot_password_sign_in">#8d8d8d</color>
+    <color name="dont_have_account_color">#141414</color>
+    <color name="signup_color">#141414</color>
+
+    <!--Edit Profile Screen Color-->
+    <color name="text_view_color_edit_profile">#bbbbbb</color>
+    <color name="edit_text_color_edit_profile">#da4f3b</color>
+
+    <!--Restro Details Screen Color-->
+    <color name="heading_restro_details">#5b5b5b</color>
+    <color name="location_restro_details">#b5b5b5</color>
+    <color name="open_now_restro_details">#ed7a70</color>
+    <color name="open_now_txt_restro_details">#555555</color>
+    <color name="gallery_restro_details">#626262</color>
+    <color name="review_restro_details">#aaa4a4</color>
+
+    <!--Map Screen Color-->
+    <color name="toolbar_map_screen">#e74b3c</color>
+    <color name="status_bar_map_screen">#e74b3c</color>
+
+
+    <!--Filter Screen Color-->
+    <color name="seek_bar_color">#da5e51</color>
+    <color name="seekbar_unselected">#d7d7d7</color>
+    <color name="seek_bar_thumb_color">#d84d3b</color>
+    <color name="text_filter_screen">#d4695b</color>
+    <color name="txtx_color_filter_screen">#7c7c7c</color>
+    <color name="background_round_corner">#f2f2f2</color>
+
+    <!--Progress Dialog Color-->
+    <color name="progress_dialog_color">#e74b3c</color>
+
+
+</resources>

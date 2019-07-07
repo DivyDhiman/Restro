@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="restro.bts.com.restro">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name="controllerAll.Controller"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCwc0IO2y7PjVOSHcLVATgREUjjvkyOrPU"/>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IntroScreen" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".SignInScreen" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".SignUpScreen" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".EditProfileScreen" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".RestroDetailsScreen" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".MapScreen" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".ShowReviews" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".AddReview" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".CuisineScreen" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".FilterScreen" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".FullImageView" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".FullImageViewRecyclerView" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".ForgotPassword" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+        <activity android:name=".CentraliseWebView" android:screenOrientation="portrait" android:launchMode="singleTask"/>
+
+        <activity android:name=".DashBoardScreen" android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateUnchanged|stateHidden"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

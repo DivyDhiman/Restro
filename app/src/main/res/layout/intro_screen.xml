@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_scrren_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/custom_tool_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/margin_13"
+            android:layout_marginStart="@dimen/margin_13"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/margin_35" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_18"
+        android:layout_marginEnd="@dimen/margin_13"
+        android:layout_marginStart="@dimen/margin_13"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/login_with_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_13"
+            android:layout_marginLeft="@dimen/margin_13"
+            android:layout_marginRight="@dimen/margin_13"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/facebook_btn_color"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:id="@+id/login_with_facebook_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="@dimen/margin_15"
+                android:paddingTop="@dimen/margin_15"
+                android:text="@string/facebook_login"
+                android:textColor="@color/facebook_txt_color"
+                android:textSize="@dimen/margin_13" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/login_with_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_13"
+            android:layout_marginLeft="@dimen/margin_13"
+            android:layout_marginRight="@dimen/margin_13"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/sign_in_btn_color"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:id="@+id/login_with_email_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="@dimen/margin_15"
+                android:paddingTop="@dimen/margin_15"
+                android:text="@string/email_login"
+                android:textColor="@color/sign_in_txt_color"
+                android:textSize="@dimen/margin_13" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

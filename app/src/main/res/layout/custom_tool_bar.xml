@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/centralise_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:paddingTop="@dimen/margin_4"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    app:layout_scrollFlags="scroll|enterAlways|snap"
+    app:theme="@style/Theme.AppCompat">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/margin_13"
+        android:layout_marginEnd="@dimen/margin_13">
+
+        <ImageView
+            android:id="@+id/start_view"
+            android:layout_width="@dimen/margin_30"
+            android:layout_height="@dimen/margin_25"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/start_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/margin_25"
+            android:layout_toEndOf="@+id/start_view"
+            android:layout_toRightOf="@+id/start_view"
+            android:layout_marginStart="@dimen/margin_13"
+            android:layout_marginLeft="@dimen/margin_13"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+
+
+        <TextView
+            android:id="@+id/end_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/toolbar_end_txt_color"
+            android:textSize="@dimen/margin_18"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/before_end_view"
+            android:layout_width="@dimen/margin_30"
+            android:layout_height="@dimen/margin_25"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/margin_45"
+            android:layout_marginRight="@dimen/margin_45"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/end_view"
+            android:layout_width="@dimen/margin_30"
+            android:layout_height="@dimen/margin_25"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin= "@dimen/margin_18"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/margin_15"
+            android:text="@string/enable_gps"/>
+
+        <TextView
+            android:id="@+id/description_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginTop="@dimen/margin_13"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/margin_13"
+            android:text="@string/please_enable_gps"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="@dimen/margin_4"
+            android:layout_marginTop="@dimen/margin_25"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/negative_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/margin_13"
+                android:text="@string/cancel_dailog"/>
+
+
+            <View
+                android:layout_width="@dimen/margin_35"
+                android:layout_height="2dp"/>
+
+
+            <TextView
+                android:id="@+id/positive_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="?attr/selectableItemBackground"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/colorRed"
+                android:textSize="@dimen/margin_13"
+                android:text="@string/settings_dialog"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

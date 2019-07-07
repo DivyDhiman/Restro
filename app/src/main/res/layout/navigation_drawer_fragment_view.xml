@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_side_menu_color"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/profile_click"
+        android:layout_width="@dimen/margin_100"
+        android:layout_height="@dimen/margin_100"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin_4"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_18">
+
+        <functionalityAll.CircularImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/round_default_image"
+            app:civ_border="false"
+            app:civ_shadow="false" />
+
+        <ProgressBar
+            android:id="@+id/progress_view"
+            android:layout_width="@dimen/margin_35"
+            android:layout_height="@dimen/margin_35"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/custom_progress_dialog"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_5"
+        android:gravity="center"
+        android:text="Mike Wayan"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/margin_15" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/margin_11"
+        android:layout_marginRight="@dimen/margin_11"
+        android:layout_marginTop="@dimen/margin_8"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/margin_13"
+            android:layout_height="@dimen/margin_18"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:layout_marginRight="@dimen/margin_8"
+            android:background="@drawable/whitelocationpin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New York"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/margin_13" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_13"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginStart="@dimen/margin_13"
+        android:layout_marginTop="@dimen/margin_15"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:id="@+id/home_click"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.12"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/home_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/home"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/margin_15" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/cusine_click"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.12"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/cusine"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/margin_15" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/about_click"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.12"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/about"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/margin_15" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/logout_click"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.12"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/logout"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/margin_15" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

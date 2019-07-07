@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/custom_tool_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_13"
+                android:layout_marginEnd="@dimen/margin_13"
+                android:layout_marginStart="@dimen/margin_13"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.28">
+
+                            <ImageView
+                                android:id="@+id/image_show"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/restro" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="@dimen/margin_8"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/like_image"
+                                    android:layout_width="@dimen/margin_18"
+                                    android:layout_height="@dimen/margin_18"
+                                    android:layout_marginEnd="@dimen/margin_4"
+                                    android:layout_marginRight="@dimen/margin_4"
+                                    android:src="@drawable/like_count" />
+
+                                <TextView
+                                    android:id="@+id/like_count"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:text="2 likes"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/margin_13"
+                                    android:shadowColor="@color/colorBlack"
+                                    android:shadowDx="2"
+                                    android:shadowDy="2"
+                                    android:shadowRadius="2"/>
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:id="@+id/image_below_parent"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.72"
+                            android:orientation="vertical"
+                            android:paddingEnd="@dimen/margin_13"
+                            android:paddingStart="@dimen/margin_13">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_13">
+
+
+                                <TextView
+                                    android:id="@+id/check_in_count"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="@dimen/margin_10"
+                                    android:layout_marginRight="@dimen/margin_13"
+                                    android:gravity="center"
+                                    android:text="4 Checkin"
+                                    android:textColor="@color/title_txt_color"
+                                    android:textSize="@dimen/margin_13" />
+
+                                <TextView
+                                    android:id="@+id/distance_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:text="1.4 km"
+                                    android:textColor="@color/heading_restro_details"
+                                    android:textSize="@dimen/margin_13" />
+
+                            </RelativeLayout>
+
+
+                            <TextView
+                                android:id="@+id/header_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="DIGGIN"
+                                android:textColor="@color/heading_restro_details"
+                                android:textSize="@dimen/margin_25" />
+
+                            <LinearLayout
+                                android:id="@+id/location_click"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/margin_10"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="@dimen/margin_18"
+                                    android:layout_height="@dimen/margin_25"
+                                    android:layout_marginEnd="@dimen/margin_8"
+                                    android:layout_marginRight="@dimen/margin_8"
+                                    android:background="@drawable/redloactionpin" />
+
+                                <TextView
+                                    android:id="@+id/location_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:text="ERICURIA FOOD MALL, NEHRU PLACE, NEW DELHI"
+                                    android:textColor="@color/location_restro_details"
+                                    android:textSize="@dimen/margin_12" />
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/margin_11"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/open_now_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="@dimen/margin_8"
+                                    android:layout_marginRight="@dimen/margin_8"
+                                    android:gravity="center"
+                                    android:text="Open Now - "
+                                    android:textColor="@color/open_now_restro_details"
+                                    android:textSize="@dimen/margin_13" />
+
+                                <TextView
+                                    android:id="@+id/open_now_detail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:text="12 Noon to 12 Midnight"
+                                    android:textColor="@color/open_now_txt_restro_details"
+                                    android:textSize="@dimen/margin_13" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/special_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/margin_8"
+                                android:layout_marginRight="@dimen/margin_8"
+                                android:textColor="@color/open_now_restro_details"
+                                android:textSize="@dimen/margin_12"
+                                android:layout_marginTop="@dimen/margin_4"
+                                android:visibility="gone"/>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_marginBottom="@dimen/margin_11"
+                                android:layout_marginEnd="@dimen/margin_15"
+                                android:layout_marginStart="@dimen/margin_15"
+                                android:layout_marginTop="@dimen/margin_12"
+                                android:background="@color/off_black" />
+
+                            <TextView
+                                android:id="@+id/gallery_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/margin_4"
+                                android:text="Gallery"
+                                android:textColor="@color/gallery_restro_details"
+                                android:textSize="@dimen/margin_15" />
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/gallery_list"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="@dimen/margin_18"
+                                android:layout_marginTop="@dimen/margin_13"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <android.support.v7.widget.CardView
+                                    android:id="@+id/reviews"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/margin_8"
+                                    android:layout_marginRight="@dimen/margin_8"
+                                    android:orientation="vertical"
+                                    app:cardBackgroundColor="@color/review_restro_details"
+                                    app:cardCornerRadius="18dp"
+                                    app:cardMaxElevation="5dp">
+
+                                    <TextView
+                                        android:id="@+id/reviews_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:paddingBottom="@dimen/margin_11"
+                                        android:paddingEnd="@dimen/margin_45"
+                                        android:paddingStart="@dimen/margin_45"
+                                        android:paddingTop="@dimen/margin_11"
+                                        android:text="Reviews"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="@dimen/margin_15" />
+                                </android.support.v7.widget.CardView>
+
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/call_view"
+                                        android:layout_width="@dimen/margin_45"
+                                        android:layout_height="@dimen/margin_45"
+                                        android:background="@drawable/contact" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.25" />
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.06"
+                            app:cardCornerRadius="20dp"
+                            app:cardMaxElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="@dimen/margin_8"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/rating_restro1"
+                                    android:layout_width="@dimen/margin_25"
+                                    android:layout_height="@dimen/margin_25"
+                                    android:padding="@dimen/margin_4"
+                                    android:src="@drawable/smallredstar" />
+
+                                <ImageView
+                                    android:id="@+id/rating_restro2"
+                                    android:layout_width="@dimen/margin_25"
+                                    android:layout_height="@dimen/margin_25"
+                                    android:padding="@dimen/margin_4"
+                                    android:src="@drawable/smallredstar" />
+
+                                <ImageView
+                                    android:id="@+id/rating_restro3"
+                                    android:layout_width="@dimen/margin_25"
+                                    android:layout_height="@dimen/margin_25"
+                                    android:padding="@dimen/margin_4"
+                                    android:src="@drawable/smallredstar" />
+
+                                <ImageView
+                                    android:id="@+id/rating_restro4"
+                                    android:layout_width="@dimen/margin_25"
+                                    android:layout_height="@dimen/margin_25"
+                                    android:padding="@dimen/margin_4"
+                                    android:src="@drawable/smallgraystar" />
+
+                                <ImageView
+                                    android:id="@+id/rating_restro5"
+                                    android:layout_width="@dimen/margin_25"
+                                    android:layout_height="@dimen/margin_25"
+                                    android:padding="@dimen/margin_4"
+                                    android:src="@drawable/smallgraystar" />
+
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.79" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
